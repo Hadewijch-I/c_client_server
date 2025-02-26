@@ -3,7 +3,7 @@ version: '3.8'
 services:
   test-mysql:
     image: mysql
-    container_name: test-mysql
+    container_name: db-mysql
     environment:
       MYSQL_ROOT_PASSWORD: strong_password
       MYSQL_DATABASE: mydatabase
